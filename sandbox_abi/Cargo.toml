@@ -1,0 +1,23 @@
+[package]
+
+name = "sandbox_abi"
+version = "0.0.1"
+authors = ["Daniel Keep <daniel.keep@gmail.com>"]
+
+[lib]
+
+# Making this a dylib causes MASSIVE linking errors... in sandbox_render.  For some reason.  <_<   >_>   Wat?!
+# crate-type = ["dylib"]
+name = "sandbox_abi"
+
+[dependencies]
+
+typemap = "0.0.8"
+
+[dependencies.glium]
+
+git = "https://github.com/tomaka/glium"
+
+[dependencies.glutin]
+
+git = "https://github.com/tomaka/glutin"

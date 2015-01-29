@@ -1,0 +1,30 @@
+[package]
+
+name = "sandbox_render"
+version = "0.0.1"
+authors = ["Daniel Keep <daniel.keep@gmail.com>"]
+
+[lib]
+
+crate-type = ["dylib"]
+name = "sandbox_render"
+
+[dependencies]
+
+typemap = "0.0.8"
+
+[dependencies.sandbox_abi]
+
+path = "../sandbox_abi"
+
+[dependencies.glium]
+
+git = "https://github.com/tomaka/glium"
+
+[dependencies.glium_macros]
+
+git = "https://github.com/tomaka/glium"
+
+[dependencies.glutin]
+
+git = "https://github.com/tomaka/glutin"

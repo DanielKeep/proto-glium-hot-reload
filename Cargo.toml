@@ -1,0 +1,41 @@
+[package]
+
+name = "sandbox"
+version = "0.0.1"
+authors = ["Daniel Keep <daniel.keep@gmail.com>"]
+
+[dependencies]
+
+typemap = "0.0.8"
+
+[dependencies.sandbox_abi]
+
+path = "sandbox_abi"
+
+[dependencies.sandbox_render]
+
+path = "sandbox_render"
+
+[dependencies.cgmath]
+
+git = "https://github.com/bjz/cgmath-rs"
+
+[dependencies.glium]
+
+git = "https://github.com/tomaka/glium"
+
+[dependencies.glium_macros]
+
+git = "https://github.com/tomaka/glium"
+
+[dependencies.glutin]
+
+git = "https://github.com/tomaka/glutin"
+
+[dependencies.image]
+
+git = "https://github.com/PistonDevelopers/image"
+
+[dependencies.nalgebra]
+
+git = "https://github.com/sebcrozet/nalgebra"
